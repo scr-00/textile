@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TexBridge Permissions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .container {
+            background-color: #fff;
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .permission-section {
+            margin: 20px 0;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        .permission-section button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .permission-section button:hover {
+            background-color: #0056b3;
+        }
+        .skip-btn {
+            text-align: center;
+            margin-top: 20px;
+            color: #007bff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TexBridge</h1>
+        <p>Connecting Textiles, Creating Possibilities</p>
+        <h2>Optional Permissions</h2>
+        <p>These permissions enhance your experience, but are not required. You can always grant them later when needed.</p>
+        <div class="permission-section">
+            <h3>Location Access</h3>
+            <p>Allow us to find clothes donation and exchange options near you</p>
+            <button>Grant Location Access</button>
+        </div>
+        <div class="permission-section">
+            <h3>Notifications</h3>
+            <p>Stay updated on your donations, exchanges, and new opportunities</p>
+            <button>Enable Notifications</button>
+        </div>
+        <div class="permission-section">
+            <h3>Camera Access</h3>
+            <p>Take photos of your clothes for donation or exchange</p>
+            <button>Allow Camera Access</button>
+        </div>
+        <div class="skip-btn"><a href="main.html" style="color:cadetblue; text-decoration: none;">Skip for now (You can grant permissions later)</a></div>
+    </div>
+</body>
+</html>

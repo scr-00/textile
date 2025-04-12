@@ -1,0 +1,23 @@
+.box{
+    border: 1px solid black;
+    height: 55vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    border-radius: 10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+h4{
+    padding-bottom: 50px;
+}
+button {
+    position: relative;
+    top: -30px;
+    left: 90px;
+}

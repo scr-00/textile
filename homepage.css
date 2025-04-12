@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.container {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.logo h1 {
+    color: #4A90E2;
+    font-size: 2.5em;
+}
+
+.logo p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.cta {
+    margin: 20px 0;
+}
+
+.cta p {
+    margin-bottom: 10px;
+}
+
+.cta label {
+    display: block;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.get-started {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    position: relative;
+    top: 5vh;
+    right: 10vw;
+}
+
+.image-section {
+    margin-top: 30px;
+}
+
+.image-section p {
+    color: #777;
+}
+
+.pagination {
+    margin-top: 10px;
+}
+
+.pagination span {
+    padding: 5px 10px;
+    margin: 0 3px;
+    border: 1px solid #4A90E2;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #4A90E2;
+}

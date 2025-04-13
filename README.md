@@ -5,7 +5,7 @@ Welcome to the **Textile Management System**! This project provides a platform f
 ### Main Website:
 Explore the live project here:
 ```bash
- [Textile Management System](https://tech-arc.github.io/textile/)
+ https://tech-arc.github.io/textile/
 ```
 ---
 

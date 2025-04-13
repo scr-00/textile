@@ -1,18 +1,14 @@
-.box{
-    border: 1px solid black;
-    height: 55vh;
-    width: 25vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 20vh;
-    border-radius: 10px;
+*{
+    margin: 0;
+    padding: 0;
 }
+
 body {
     display: flex;
     justify-content: center;
+    background-image: url(darzi.png);
 }
+
 h4{
     padding-bottom: 50px;
 }
@@ -20,4 +16,107 @@ button {
     position: relative;
     top: -30px;
     left: 90px;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 10px;
+    width: 90vw;
+    height: 95vh;
+    background-color: #f9f9f9a4;
+    position: relative;
+    top: 2.3vh;
+}
+
+.mb-3 p {
+    position: relative;
+    left: 1.5vw;
+}
+
+button {
+    position: relative;
+    left: 7.5vw;
+}
+
+.divider {
+    width: 10vw;
+    height: 100vh;
+    position: relative;
+    right: 8vw;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 19vw;
+    position: relative;
+    bottom: 25vh;
+    left: 32vw;
+}
+
+.logoimg {
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+    /* margin-top: 25vh; */
+}
+
+.logo h1 {
+    color: #6b6b6b;
+    font-size: 2em;
+}
+
+.logo p {
+    margin-top: -2vh;
+    font-size: 0.8em;
+    color: #555;
+    width: 17vw;
+}
+
+.para p {
+    /* margin-bottom: 10px; */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #6b6b6b;
+    width: 35vw;
+    line-height: 5vh;
+    position: relative;
+    left: 15vw;
+}
+
+.sf .content {
+    display: block;
+    /* margin-bottom: 20px; */
+    /* border: 1px solid rgba(64, 138, 138, 0.411); */
+    border-radius: 8px;
+    background-color: #c7dff757;
+    width: 26vw;
+    line-height: 0.5em;
+    font-family:cursive;
+    position: relative;
+    top: 25vh;
+    right: 20vw;
+}
+
+.sf .content h5 {
+    /* width: 30vw; */
+    font-weight: 550;
+    font-size: 1.1em;
+    padding: 10px 20px 0px 20px;
+}
+
+.sf .content p {
+    /* width: 30vw; */
+    font-size: 0.8em;
+    color: #555;
+    padding: 0px 20px 20px 20px;
+}
+
+form {
+    position: relative;
+    right: 5vw;
 }

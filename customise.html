@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothing Customization</title>
+  <link rel="stylesheet" href="customise.css">
+</head>
+<body>
+  <header class="header">
+    <a href="main.html" class="back-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 18l-6-6 6-6"/>
+      </svg>
+      Back to Dashboard
+    </a>
+  </header>
+
+  <main class="container">
+    <div class="title-section">
+      <h1>Clothing Customization</h1>
+      <p>Tell us about your clothes or items you want to revitalize and our team will create your patterns.</p>
+    </div>
+
+    <section class="form-section">
+      <h2>Submit Your Clothes</h2>
+      <p class="form-description">Submit clothes data to complete customization analysis</p>
+
+      <form class="customization-form">
+        <div class="form-group">
+          <label for="material" style="font-weight: bold;">Material Information</label>
+          <input type="text" id="material" placeholder="e.g. 100% Cotton, Polyester Blend..." class="form-control">
+          <p class="form-hint">This information can usually be found on the clothing tag.</p>
+        </div>
+
+        <div class="form-group">
+          <label for="description" style="font-weight: bold;">Item Details</label>
+          <textarea id="description" class="form-control" placeholder="Describe the item, including size, brand, condition..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label style="font-weight: bold;">Photos</label>
+          <div class="photo-upload-grid">
+            <div class="photo-upload-box">
+              <div class="photo-upload-placeholder">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                  <polyline points="21 15 16 10 5 21"></polyline>
+                </svg>
+                <p>Upload Photo</p>
+              </div>
+            </div>
+            <div class="photo-upload-box">
+              <div class="photo-upload-placeholder">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <p>Upload Photo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label style="font-weight: bold;">Your Location</label>
+          <div class="location-input-group">
+            <div class="location-input">
+              <input type="text" placeholder="Location not provided" class="form-control">
+            </div>
+            <button type="button" class="location-button">Get Location</button>
+          </div>
+        </div>
+
+        <div class="form-group notification-box">
+          <p>Watch out your mobile/email account. We will inform you shortly about your item and procedures.</p>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Information</button>
+      </form>
+    </section>
+
+    <section class="services-section">
+      <h2>Professional Services</h2>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"></path>
+            </svg>
+          </div>
+          <h3>Professional Alteration</h3>
+          <p>Get expert tailoring for perfect fit</p>
+          <a href="#" class="service-link">Book Service</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+          </div>
+          <h3>Custom Styling</h3>
+          <p>Add unique details to your clothes</p>
+          <a href="#" class="service-link">Book Service</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
+              <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
+              <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
+              <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
+              <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
+              <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
+            </svg>
+          </div>
+          <h3>Repair Service</h3>
+          <p>Fix damaged items with precision</p>
+          <a href="#" class="service-link">Book Service</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

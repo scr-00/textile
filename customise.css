@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  body {
+    background-color: #f9fafb;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: white;
+  }
+  
+  .back-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .back-link svg {
+    margin-right: 6px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .title-section {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .title-section h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .title-section p {
+    color: #6b7280;
+    font-size: 14px;
+  }
+  
+  /* Form Section */
+  .form-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .form-description {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 24px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .form-hint {
+    font-size: 12px;
+    color: #6b7280;
+    margin-top: 4px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  textarea.form-control {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  /* Photo Upload */
+  .photo-upload-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  .photo-upload-box {
+    border: 1px dashed #d1d5db;
+    border-radius: 4px;
+    height: 150px;
+    background-color: #f9fafb;
+    overflow: hidden;
+  }
+  
+  .photo-upload-placeholder {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+    cursor: pointer;
+  }
+  
+  .photo-upload-placeholder p {
+    margin-top: 8px;
+    font-size: 13px;
+  }
+  
+  /* Location Input */
+  .location-input-group {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .location-input {
+    flex-grow: 1;
+  }
+  
+  .location-button {
+    background-color: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 10px 16px;
+    white-space: nowrap;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Notification Box */
+  .notification-box {
+    background-color: #fffbeb;
+    border: 1px solid #fef3c7;
+    border-radius: 4px;
+    padding: 16px;
+    font-size: 13px;
+    color: #92400e;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #4338ca;
+  }
+  
+  /* Services Section */
+  .services-section {
+    margin-top: 40px;
+  }
+  
+  .services-section h2 {
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    background-color: #f3f4f6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .service-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .service-card p {
+    color: #6b7280;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  
+  .service-link {
+    color: #4f46e5;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .services-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    
+    .photo-upload-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .location-input-group {
+      flex-direction: column;
+    }
+    
+    .location-button {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Your Clothes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .form-container {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .form-section {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"], 
+        input[type="number"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #333;
+            font-size: 1.5em;
+        }
+        .hint {
+            font-size: 12px;
+            color: #777;
+            margin-top: 2px;
+        }
+        .location-container {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .location-icon {
+            margin-right: 10px;
+            color: #666;
+        }
+        .location-text {
+            flex-grow: 1;
+            font-size: 14px;
+            color: #666;
+        }
+        .location-button {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px 10px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .submit-button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #5470b7;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .submit-button:hover {
+            background-color: #4560a0;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 60px;
+        }
+        .checkbox-label {
+            display: flex;
+            align-items: flex-start;
+            font-size: 14px;
+        }
+        .checkbox-text {
+            margin-left: 5px;
+        }
+        .small-note {
+            font-size: 12px;
+            color: #777;
+            margin-top: 2px;
+            margin-left: 23px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Donate Your Clothes</h1>
+        <p class="subtitle">Provide details about the clothes you want to donate</p>
+        
+        <div class="form-container">
+            <div class="form-section">
+                <div class="section-title">Clothes Details</div>
+                <div class="hint">Tell us about the clothes you're donating</div>
+            </div>
+            
+            <div class="form-section">
+                <label for="quantity" style="font-weight: bold;">How many items are you donating?</label>
+                <input type="number" id="quantity" name="quantity" placeholder="e.g. 5" min="1">
+                <div class="hint">Enter the total number of clothing items</div>
+            </div>
+            
+            <div class="form-section">
+                <label for="category" style="font-weight: bold;">Category</label>
+                <input type="text" id="category" name="category" placeholder="e.g. Winter Clothes, Children's Wear">
+                <div class="hint">What type of clothes are you donating?</div>
+            </div>
+            
+            <div class="form-section">
+                <label for="condition" style="font-weight: bold;">Condition</label>
+                <input type="text" id="condition" name="condition" placeholder="e.g. Gently Used, Like New">
+                <div class="hint">Describe the overall condition of the items</div>
+            </div>
+            
+            <div class="form-section">
+                <label for="description" style="font-weight: bold;">Description</label>
+                <textarea id="description" name="description" placeholder="Provide details about the clothes (sizes, brands, colors, etc.)"></textarea>
+                <div class="hint">Add specific details that might help recipients</div>
+            </div>
+            
+            <div class="form-section">
+                <div class="section-title" style="font-weight: bold; font-size:14px; color: #555;">Your Location</div>
+                <div class="location-container">
+                    <div class="location-icon">📍</div>
+                    <div class="location-text">Location not provided</div>
+                    <button class="location-button">Get Location</button>
+                </div>
+            </div>
+            
+            <div class="form-section">
+                <label for="address" style="font-weight: bold;">Pickup Address</label>
+                <textarea id="address" name="address" placeholder="Enter your complete address for pickup"></textarea>
+            </div>
+            
+            <div class="form-section">
+                <label for="contact" style="font-weight: bold;">Contact Number</label>
+                <input type="tel" id="contact" name="contact" placeholder="Your phone number">
+            </div>
+            
+            <div class="form-section">
+                <div class="checkbox-label">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <div class="checkbox-text" style="font-weight: bold;">I agree to the terms and conditions</div>
+                </div>
+                <div class="small-note">Your clothes will be donated to those in need</div>
+            </div>
+            
+            <button class="submit-button"><a href="upload.html" style="color: white; text-decoration: none;"> Continue to Photos </a></button>
+        </div>
+    </div>
+</body>
+</html>

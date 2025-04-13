@@ -1,35 +1,76 @@
 # Textile Management System
 
-Welcome to the **Textile Management System** repository! This project is dedicated to managing textiles effectively, promoting sustainability, and simplifying the process of refashioning, donating, and tracking textiles. It's designed with user-friendly features and a strong focus on eco-conscious practices.
+Welcome to the **Textile Management System**! This project provides a platform for managing textiles through donation, refashioning, and customization. It promotes sustainability while offering an intuitive interface and robust features.
+
+### Main Website:
+Explore the live project here: [Textile Management System](https://tech-arc.github.io/textile/)
+
+---
 
 ## Features
 
-### 1. **Login Functionality**
-- Secure email-based login system ([emaillogin.html](https://github.com/scr-00/textile/blob/main/emaillogin.html), [emaillogin.css](https://github.com/scr-00/textile/blob/main/emaillogin.css)).
-- Phone number login system ([phonelogin.html](https://github.com/scr-00/textile/blob/main/phonelogin.html), [phonelogin.css](https://github.com/scr-00/textile/blob/main/phonelogin.css)) with OTP verification ([verify.html](https://github.com/scr-00/textile/blob/main/verify.html), [verify.css](https://github.com/scr-00/textile/blob/main/verify.css)).
-- Skip option for users who prefer a quick start without authentication.
+### 1. **Donation Platform**
+- Upload details and images of clothes for donation.
+- Track the status of your donations.
+- Learn more about this feature: [Donation Page](https://github.com/tech-arc/textile/blob/main/donationpage.html)
 
-### 2. **Homepage**
-- Stylish and intuitive homepage ([index.html](https://github.com/scr-00/textile/blob/main/index.html), [homepage.css](https://github.com/scr-00/textile/blob/main/homepage.css)) for navigating key functionalities.
+### 2. **Refashioned Textiles**
+- Discover creative ways to refashion textiles.
+- View examples and resources: [Refashioned Section](https://github.com/tech-arc/textile/blob/main/refashioned.html)
 
-### 3. **Textile Refashioning**
-- Interactive platform for refashioned textiles, integrated with external resources for creative ideas.
-- Provides guidance for sustainable textile management.
+### 3. **Customized Textiles**
+- Customize textiles with unique designs and personalization options.
+- Explore customization features: [Customization Page](https://github.com/tech-arc/textile/blob/main/customise.html)
 
-### 4. **Donation Tracking**
-- Allows users to upload details and images of clothes ([main.html](https://github.com/scr-00/textile/blob/main/main.html)).
-- Real-time tracking for pickups, shipments, and delivery.
+### 4. **Login System**
+- Secure email login: [Email Login Page](https://github.com/tech-arc/textile/blob/main/emaillogin.html) ([CSS Styling](https://github.com/tech-arc/textile/blob/main/emaillogin.css))
+- Phone number login with OTP verification: [Phone Login Page](https://github.com/tech-arc/textile/blob/main/phonelogin.html) ([CSS Styling](https://github.com/tech-arc/textile/blob/main/phonelogin.css), [OTP Verification Page](https://github.com/tech-arc/textile/blob/main/verify.html))
 
-### 5. **Visual Assets**
-- Unique project logo ([logo.jpg](https://github.com/scr-00/textile/blob/main/logo.jpg)) and icons ([darzi.png](https://github.com/scr-00/textile/blob/main/darzi.png)) enhancing the platform's visual identity.
+### 5. **Homepage**
+- Navigate seamlessly to all project features.
+- Check out the homepage: [Index Page](https://github.com/tech-arc/textile/blob/main/index.html) ([Homepage CSS](https://github.com/tech-arc/textile/blob/main/homepage.css))
 
-## Technologies Used
-- **HTML5**: For structuring the webpages.
-- **CSS3**: For styling and layout design.
-- **GitHub Pages**: To host the project online (if applicable).
+### 6. **Visual Enhancements**
+- Project logo: ![Logo](https://github.com/tech-arc/textile/blob/main/logo.jpg)
+- Icons and dividers: [Icons](https://github.com/tech-arc/textile/blob/main/icon.png), [Divider](https://github.com/tech-arc/textile/blob/main/divider.png)
+- Images and previews:
+  - [Donation Preview](https://github.com/tech-arc/textile/blob/main/Donation.jpg)
+  - [Refashioned Preview](https://github.com/tech-arc/textile/blob/main/Refashioned.jpg)
+  - [Customized Preview](https://github.com/tech-arc/textile/blob/main/coustomised.jpg)
+  - [Denim Preview](https://github.com/tech-arc/textile/blob/main/denim.jpg)
+  - [Sneakers Preview](https://github.com/tech-arc/textile/blob/main/sneakers.jpg)
+  - [Summer Preview](https://github.com/tech-arc/textile/blob/main/summer.jpg)
+  - [Winter Preview](https://github.com/tech-arc/textile/blob/main/winter.jpg)
 
-## Installation
+---
 
+## Step-by-Step Guide for Accessing the Project
+
+### Step 1: Visit the Website
+- Open the live website at [https://tech-arc.github.io/textile/](https://tech-arc.github.io/textile/).
+
+### Step 2: Explore Features
+1. **Donation Section**:
+   - Navigate to the donation page via the menu.
+   - Upload clothes details and track donation status.
+
+2. **Refashioning Section**:
+   - Browse through refashioning ideas and examples.
+   - Download resources to start your own creative projects.
+
+3. **Customization Section**:
+   - Access the customization page.
+   - Apply unique designs to textiles using the interactive interface.
+
+4. **Login**:
+   - Choose either email or phone login for authentication.
+   - Verify using OTP if required.
+
+5. **General Navigation**:
+   - Start at the homepage and explore different sections using the intuitive menu.
+
+### Step 3: Test Locally
+If you want to test the project locally:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/scr-00/textile.git
+   git clone https://github.com/tech-arc/textile.git

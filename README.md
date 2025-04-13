@@ -3,7 +3,8 @@
 Welcome to the **Textile Management System**! This project provides a platform for managing textiles through donation, refashioning, and customization. It promotes sustainability while offering an intuitive interface and robust features.
 
 ### Main Website:
-Explore the live project here: [Textile Management System](https://tech-arc.github.io/textile/)
+Explore the live project here:
+ [Textile Management System](https://tech-arc.github.io/textile/)
 
 ---
 

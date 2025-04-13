@@ -60,7 +60,10 @@ This project offers a unified solution to address these challenges:
 ## Step-by-Step Guide for Accessing the Project
 
 ### Step 1: Visit the Website
-- Open the live website at [https://tech-arc.github.io/textile/](https://tech-arc.github.io/textile/).
+- Open the live website at
+ ```bash
+ https://tech-arc.github.io/textile/
+```
 
 ### Step 2: Explore Features
 1. **Donation Section**:
@@ -87,3 +90,5 @@ If you want to test the project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/tech-arc/textile.git
+
+

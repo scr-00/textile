@@ -3,10 +3,24 @@
 Welcome to the **Textile Management System**! This project provides a platform for managing textiles through donation, refashioning, and customization. It promotes sustainability while offering an intuitive interface and robust features.
 
 ### Main Website:
-Explore the live project here:
-```bash
- [Textile Management System](https://tech-arc.github.io/textile/)
-```
+Explore the live project here: [Textile Management System](https://tech-arc.github.io/textile/)
+
+---
+
+## Problem Statement
+
+Textile waste has become a significant issue worldwide due to a fragmented supply chain. Waste scrappers, industries, businesses, Textile Recovery Facilities (TRFs), NGOs, and the environment are heavily impacted. Textile waste contributes to pollution, resource depletion, and overflowing landfills, hindering sustainability efforts. Shockingly, the textile industry is responsible for over 10% of global carbon emissions and 20% of global wastewater pollution.
+
+## Solution
+
+### A Comprehensive Textile Management Platform
+This project offers a unified solution to address these challenges:
+- **One Platform for All**: Connects waste scrappers, industries, TRFs, and NGOs for streamlined textile waste management.
+- **Job Opportunities**: Supports waste pickers and upcyclers in finding buyers and industries for their materials and designs.
+- **Waste Management**: Promotes recycling, upcycling, and proper utilization of textile waste to prevent it from ending up in landfills.
+- **Upcycling, Recycling & Customization**: Enables users to transform old textiles into new designs, recycle them, or customize clothing, advocating sustainable fashion.
+- **Real-Time Tracking**: Provides live updates on waste collection, demand-supply trends, and environmental impact, enhancing transparency and efficiency.
+
 ---
 
 ## Features
